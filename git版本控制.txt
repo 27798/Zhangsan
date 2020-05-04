@@ -1,0 +1,15 @@
+如何进行git版本控制（via 浪晋小课堂）：
+1. 在github上建一个属于自己的仓库（这儿取名为"Zhangsan"）
+2. 下载Git，并安装
+3. 打开Git，输入命令
+① git config --global user.name "Zhang"  （设置用户的名字，我的名字叫“Zhang”）
+② git config --global user.email "1******1.qq.com"  (设置用户的github账号的邮箱地址)
+③ ssh-keygen -t rsa -C "1924391701.qq.com" （用git生成秘钥，秘钥的地址可用cmd查看，通常在C盘下user-Administrator-.ssh）
+4. 在.ssh文件夹内，打开id_rsa.pub文件，复制文件内容
+5. 打开Github，setting - SSH and GPG keys - new SSH keys (完成秘钥输入)
+6. 打开Git ，输入ssh -T git@github.com （认证）
+7. 点击GitHub，进入建好的仓库，在clone or download框中选择，use ssh, 复制内容
+8. 打开Git，克隆仓库地址，输入git clone git@github.com:27798/Zhangsan.git
+
+
+vscode提示未安装Git -----https://www.cnblogs.com/ElegantSmile/p/11833128.html
