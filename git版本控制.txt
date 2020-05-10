@@ -1,15 +1,15 @@
-ÈçºÎ½øĞĞgit°æ±¾¿ØÖÆ£¨via ÀË½úĞ¡¿ÎÌÃ£©£º
-1. ÔÚgithubÉÏ½¨Ò»¸öÊôÓÚ×Ô¼ºµÄ²Ö¿â£¨Õâ¶ùÈ¡ÃûÎª"Zhangsan"£©
-2. ÏÂÔØGit£¬²¢°²×°
-3. ´ò¿ªGit£¬ÊäÈëÃüÁî
-¢Ù git config --global user.name "Zhang"  £¨ÉèÖÃÓÃ»§µÄÃû×Ö£¬ÎÒµÄÃû×Ö½Ğ¡°Zhang¡±£©
-¢Ú git config --global user.email "1******1.qq.com"  (ÉèÖÃÓÃ»§µÄgithubÕËºÅµÄÓÊÏäµØÖ·)
-¢Û ssh-keygen -t rsa -C "1924391701.qq.com" £¨ÓÃgitÉú³ÉÃØÔ¿£¬ÃØÔ¿µÄµØÖ·¿ÉÓÃcmd²é¿´£¬Í¨³£ÔÚCÅÌÏÂuser-Administrator-.ssh£©
-4. ÔÚ.sshÎÄ¼ş¼ĞÄÚ£¬´ò¿ªid_rsa.pubÎÄ¼ş£¬¸´ÖÆÎÄ¼şÄÚÈİ
-5. ´ò¿ªGithub£¬setting - SSH and GPG keys - new SSH keys (Íê³ÉÃØÔ¿ÊäÈë)
-6. ´ò¿ªGit £¬ÊäÈëssh -T git@github.com £¨ÈÏÖ¤£©
-7. µã»÷GitHub£¬½øÈë½¨ºÃµÄ²Ö¿â£¬ÔÚclone or download¿òÖĞÑ¡Ôñ£¬use ssh, ¸´ÖÆÄÚÈİ
-8. ´ò¿ªGit£¬¿ËÂ¡²Ö¿âµØÖ·£¬ÊäÈëgit clone git@github.com:27798/Zhangsan.git
+å¦‚ä½•è¿›è¡Œgitç‰ˆæœ¬æ§åˆ¶ï¼ˆvia æµªæ™‹å°è¯¾å ‚ï¼‰ï¼š
+1. åœ¨githubä¸Šå»ºä¸€ä¸ªå±äºè‡ªå·±çš„ä»“åº“ï¼ˆè¿™å„¿å–åä¸º"Zhangsan"ï¼‰
+2. ä¸‹è½½Gitï¼Œå¹¶å®‰è£…
+3. æ‰“å¼€Gitï¼Œè¾“å…¥å‘½ä»¤
+   â‘  git config --global user.name "Zhang"  ï¼ˆè®¾ç½®ç”¨æˆ·çš„åå­—ï¼Œæˆ‘çš„åå­—å«â€œZhangâ€ï¼‰
+   â‘¡ git config --global user.email "1******1.qq.com"  (è®¾ç½®ç”¨æˆ·çš„githubè´¦å·çš„é‚®ç®±åœ°å€)
+   â‘¢ ssh-keygen -t rsa -C "1924391701.qq.com" ï¼ˆç”¨gitç”Ÿæˆç§˜é’¥ï¼Œç§˜é’¥çš„åœ°å€å¯ç”¨cmdæŸ¥çœ‹ï¼Œé€šå¸¸åœ¨Cç›˜ä¸‹user-Administrator-.sshï¼‰
+4. åœ¨.sshæ–‡ä»¶å¤¹å†…ï¼Œæ‰“å¼€id_rsa.pubæ–‡ä»¶ï¼Œå¤åˆ¶æ–‡ä»¶å†…å®¹
+5. æ‰“å¼€Githubï¼Œsetting - SSH and GPG keys - new SSH keys (å®Œæˆç§˜é’¥è¾“å…¥)
+6. æ‰“å¼€Git ï¼Œè¾“å…¥ssh -T git@github.com ï¼ˆè®¤è¯ï¼‰
+7. ç‚¹å‡»GitHubï¼Œè¿›å…¥å»ºå¥½çš„ä»“åº“ï¼Œåœ¨clone or downloadæ¡†ä¸­é€‰æ‹©ï¼Œuse ssh, å¤åˆ¶å†…å®¹
+8. æ‰“å¼€Gitï¼Œå…‹éš†ä»“åº“åœ°å€ï¼Œè¾“å…¥git clone git@github.com:27798/Zhangsan.git
 
 
-vscodeÌáÊ¾Î´°²×°Git -----https://www.cnblogs.com/ElegantSmile/p/11833128.html
+vscodeæç¤ºæœªå®‰è£…Git -----https://www.cnblogs.com/ElegantSmile/p/11833128.html
